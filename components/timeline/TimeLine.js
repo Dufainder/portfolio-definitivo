@@ -10,12 +10,12 @@ import {
 
 
 const TimeLineData = [
-  { year: 2017, text: 'Empiezo a trabajar como electricista y sigo mis estudios en ingenieria', },
-  { year: 2018, text: 'Aprendí mucha computacion y matematicas en la UdeA', },
+  { year: 2017, text: 'I start working as an electrician and continue my studies in engineering', },
+  { year: 2018, text: 'I learned a lot of computing and mathematics at UdeA', },
   { year: 2019, text: 'sixth semester where I have seen more physical mathematics and algorithms'},
   { year: 2020, text: 'The pandemic starts and I leave the U to be a FullStack developer', },
   { year: 2021, text: 'I continue my studies as a programmer I enter soyHenry And I feel prepared to work', },
-  { year: 2022, text: 'Soy certificado como Full-stack Dveloper por soyHnery', },
+  { year: 2022, text: 'I am certified as Full-stack Developer by soyHnery', },
 ];
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;

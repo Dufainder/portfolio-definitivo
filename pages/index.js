@@ -50,7 +50,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title" color={useColorModeValue('purple', 'fuchsia')}>
             Dufainder Bedoya 
           </Heading>
-          <p style={{color:'gray'}}>Fullstack Developer especializado en el front-end</p>
+          <p style={{color:'gray'}}>Fullstack Developer specialized in the front-end</p>
         </Box>
         <Box
           flexShrink={0}
@@ -139,7 +139,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Contact and learn
+          Contact and Certifications
         </Heading>
         <List>
           <ListItem>
@@ -193,7 +193,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/posts" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Certificaciones.
+          Certifications       
             </Button>
           </NextLink>
         </Box>
