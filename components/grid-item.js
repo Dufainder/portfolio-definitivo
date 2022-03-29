@@ -4,7 +4,7 @@ import { Box, Text, LinkBox, LinkOverlay, useColorModeValue } from '@chakra-ui/r
 import { Global } from '@emotion/react'
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
-  <Box w="100%" textAlign="center">
+  <Box w="100%" textAlign="center" mb='20px' mt='20px'>
     <LinkBox cursor="auto">
       <Image
         src={thumbnail}
@@ -47,6 +47,7 @@ export const GridItemStyle = () => (
     styles={`
       .grid-item-thumbnail {
         border-radius: 12px;
+        margin-bottom: 10px;
       }
     `}
   />
